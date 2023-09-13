@@ -9,7 +9,7 @@ Connection pool is a thread safe list of websocket conn
 ## How to ensure connection pool automic?
 
 > based on sync map,meanwhile use runtime.mutex to ensure automic.
-> reference:
+> reference: 
 
 ## How to implement wait-mechanism?
 
