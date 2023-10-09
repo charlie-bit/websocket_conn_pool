@@ -34,8 +34,3 @@ func (MockMutex) tryLocker() {
 func (MockMutex) mockUnlock() {
 
 }
-
-func TestMutex(t *testing.T) {
-	var local sync.Mutex
-
-}

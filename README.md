@@ -6,10 +6,9 @@ Connection pool is a thread safe list of websocket conn
 
 > base on sync.Map
 
-## How to ensure connection pool automic?
+## How to ensure connection pool atomic?
 
-> based on sync map,meanwhile use runtime.mutex to ensure automic.
-> reference: 
+> based on sync map,meanwhile use runtime.mutex to ensure atomic.
 
 ## How to implement wait-mechanism?
 
@@ -26,3 +25,7 @@ Connection pool is a thread safe list of websocket conn
 > delete user conn by remote url
 > delete all user conn
 > delete user specific conn
+
+## Others
+
+> About mutes，achieve origin mutex of go.
